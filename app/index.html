@@ -1,16 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
 
+  <body>
+    <header class="header" style="background-image: url(images/header-bg.jpeg)">
+      <div class="container">
+        <nav class="header__nav">
+          <a class="header__link-logo" href="#">
+            <img class="logo" src="images/header-logo.svg" alt="Logotype" />
+          </a>
 
-  <script src="js/main.min.js"></script>
-</body>
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#"> Афиша </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#"> Медиа </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#"> Фильмы </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#"> Актеры </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#"> Новости </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#"> Подборки </a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#"> Категории </a>
+            </li>
+          </ul>
+
+          <div class="header__btns">
+            <button class="header__btns-search">
+              <svg>
+                <use xlink:href="images/sprite.svg#search"></use>
+              </svg>
+            </button>
+            <button class="header__btns-singin">Войти</button>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container">
+        <div class="header-content">
+          <div class="header-content__inner">
+            <h1 class="header-content__title">Сейчас в кино</h1>
+            <ul class="header-content__categories">
+              <li class="header-content__categories-item">
+                <button class="header-content__categories-btn">Все</button>
+              </li>
+              <li class="header-content__categories-item">
+                <button class="header-content__categories-btn">Боевики</button>
+              </li>
+              <li class="header-content__categories-item">
+                <button class="header-content__categories-btn">
+                  Приключения
+                </button>
+              </li>
+              <li class="header-content__categories-item">
+                <button class="header-content__categories-btn">Комедии</button>
+              </li>
+              <li class="header-content__categories-item">
+                <button class="header-content__categories-btn">
+                  Фантастика
+                </button>
+              </li>
+              <li class="header-content__categories-item">
+                <button class="header-content__categories-btn">Триллеры</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="header-content__list">
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+            <li class="header-content__item">
+              <div class="header-content__blur">
+                <img
+                  class="header-content__img"
+                  src="images/header-content-categ/header-content-categ1.jpeg"
+                  alt=""
+                />
+                <a class="header-content__item-link" href="#"
+                  >Карточка фильма</a
+                >
+              </div>
+
+              <h2 class="header-content__item-title">Побег из Претории</h2>
+              <span class="header-content__item-categorie">Триллер</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main-trailer">
+        <div class="container">
+
+          <div class="main-trailer__info">
+            <h2 class="main-trailer__title">
+              Новые трейлеры
+            </h2>
+             <a class="main-trailer__link" href="#">
+              Все трейлеры
+              <svg>
+                <use xlink:href="images/sprite.svg#arrow-trailer"></use>
+              </svg>
+             </a>
+          </div>
+
+        
+          <a data-fancybox class="main-trailer__video" href="https://youtu.be/TrapRH0DSbg?si=CdHtTQyx51xcpBl3"
+           style="background-image: url(images/main-trailer-bg.jpeg);"></a>
+         
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.min.js"></script>
+  </body>
 </html>

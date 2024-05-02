@@ -1,3 +1,9 @@
+body, 
+html {
+ min-height: 100vh;
+}
+
+
 html {
   box-sizing: border-box;
 }
@@ -69,6 +75,7 @@ button {
   border: none;
   appearance: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 a {
